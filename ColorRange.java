@@ -12,9 +12,9 @@ public class ColorRange {
 
 		double wavelength;
 
-		System.out.print("enter a wavelenght in nm (380-750) ? "); // first prompt
+		System.out.print("enter a wavelenght in nm (380-750) ? "); 
 
-		wavelength = input.nextDouble(); // then read keyboard
+		wavelength = input.nextDouble();
 
 		if ((wavelength >= 380) && (wavelength <= 750))
 
