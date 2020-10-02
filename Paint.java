@@ -26,13 +26,22 @@ public static void main(String[] args){
 
     ceilingArea = length * width;
     wallsArea = (2 * (width * height) + (2 * (length * height)));
-    double totalArea = ceilingArea + wallsArea;
+    int totalArea = (int) Math.ceil(ceilingArea + wallsArea);
 
-    for(int numOfBuckets = 0; totalArea > 1; numOfBuckets++){
-        totalArea = totalArea - (totalArea / 15);
-        System.out.println("You will need " + numOfBuckets + " buckets.");
-        continue;
-
-    }
+    
+        int numOfBuckets = totalArea / 140;
+        int smallBuckets = 0;
+        int restArea = totalArea % 140;
+        if(restArea > 90){
+        	numOfBuckets++;
+        }else{
+        	smallBuckets = restArea / 30;
+        	restArea %= 30;
+        	if(restArea != 0){
+        		smallBuckets++;
+        	}
+        }
+        System.out.println("You will need " + numOfBuckets + "big buckets and " + smallBuckets + "small buckets");
+    
 }
 }
