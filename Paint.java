@@ -5,7 +5,6 @@ public class Paint
 
 {
 public static void main(String[] args){
-    //declares variables
     double length;
     double width;
     double height;
