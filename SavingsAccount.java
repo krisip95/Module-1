@@ -1,7 +1,7 @@
 package edu.smg;
 
 public class SavingsAccount {
-	public double balance; // 3 poleta
+	public double balance; 
 	public double interestRate = 0.1;
 	public String name;
 	
@@ -11,10 +11,10 @@ public class SavingsAccount {
 		
 	}
 	
-	public void withdraw( double sum) { //sumata koqto shte se tegli
+	public void withdraw( double sum) { 
 		if(sum < 0 || sum > balance) {
 			System.out.println("error");
-			return; //ako parameturut sum ne e validen se prekratqva s return
+			return; 
 		}
 		balance -= sum;
 		System.out.println("Successful withdraw " + sum + " new balane " + balance);
