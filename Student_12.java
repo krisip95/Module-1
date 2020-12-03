@@ -4,12 +4,12 @@ public class Student_12 {
 	private String name;
 	private double grade;
 	
-	public Student_12() { //prazen konstruktor
+	public Student_12() { 
 		
 	}
 	
 	public Student_12( String name, double grade) {
-		this.setName(name); //obrushtame se kum konkretniq obekt s this
+		this.setName(name); 
 		this.setGrade(grade);
 	}
 
