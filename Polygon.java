@@ -12,12 +12,12 @@ public class Polygon {
 		
 	}
 	
-	public Polygon(int z, double t) { //z - broi strani, t - dulzina
+	public Polygon(int z, double t) { 
 		this.setN(z);
 		this.setSideLength(t);
 	}
 	
-	public Polygon(int z, double t, double x, double y) { //z - broi strani, t - dulzina
+	public Polygon(int z, double t, double x, double y) { 
 		this.setN(z);
 		this.setSideLength(t);
 		this.setX(x);
