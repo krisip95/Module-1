@@ -3,7 +3,7 @@ package edu.smg;
 public class Circle_12 {
 	private double radius;
 	
-	public Circle_12() { //suzdavame konstruktor
+	public Circle_12() { 
 		 radius = 1;
 	}
 	
