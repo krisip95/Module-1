@@ -8,7 +8,7 @@ public class Polygon {
 	private double x = 0; 
 	private double y = 0; 
 	
-	public Polygon() { //empty constructor
+	public Polygon() { 
 		
 	}
 	
