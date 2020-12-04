@@ -6,7 +6,7 @@ public class StudentFinancialAid_12 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Student_12[] students = new Student_12[5]; //suzdavame masiv ot u4enitsi
+		Student_12[] students = new Student_12[5]; 
 		Scanner sc = new Scanner(System.in);
 		
 		for(int i = 0; i < 5; i++) {
@@ -14,10 +14,10 @@ public class StudentFinancialAid_12 {
 			double grade = sc.nextDouble();
 			sc.nextLine();
 			
-			students[i] = new Student_12( name, grade); //suzdavame obekt u4enik
+			students[i] = new Student_12( name, grade); 
 		}
 		
-		displayStudentsEligible(students); //izvejdat se u4enitsite koito otgovarqt na iziskvaniqta
+		displayStudentsEligible(students); 
 
 	}
 	
