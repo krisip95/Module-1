@@ -30,7 +30,7 @@ public class ATM_16 {
 					+ "Enter a choise: \n");
 			option = sc.nextInt();
 			if(option == 1) {
-				System.out.println("You have " + )
+				System.out.println("You have " +  
 								accounts[id].getBalance());
 			}else if (option == 2) {
 				System.out.println("Amount to withdraw?");
@@ -45,7 +45,7 @@ public class ATM_16 {
 		}
 	}
 }
-}
+
 
 
 
